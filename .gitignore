@@ -1,0 +1,55 @@
+# ---- Python (plantilla GitHub) ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.dist-info/
+.Python
+.env
+.envrc
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pytype/
+.dmypy.json
+.pyre/
+.site/
+build/
+dist/
+# IDE/editor
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# ---- Proyecto ALPR (tu carpeta) ----
+# Datos y artefactos (no se publican)
+train/
+valid/
+test/
+subsets_series/
+runs/
+_quarantine/
+_trash/
+audit_out/
+
+# Modelos/pesos y binarios grandes
+*.pt
+*.onnx
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.mp4
+*.avi
+
+# Sistema
+Thumbs.db
+.DS_Store
